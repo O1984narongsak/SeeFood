@@ -8,20 +8,45 @@
 
 /* Begin PBXBuildFile section */
 		F16535C1213D4B93000E41C5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F16535C0213D4B93000E41C5 /* AppDelegate.swift */; };
-		F16535C3213D4B93000E41C5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F16535C2213D4B93000E41C5 /* ViewController.swift */; };
+		F16535C3213D4B93000E41C5 /* SeeFoodViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F16535C2213D4B93000E41C5 /* SeeFoodViewController.swift */; };
 		F16535C6213D4B93000E41C5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F16535C4213D4B93000E41C5 /* Main.storyboard */; };
 		F16535C8213D4B96000E41C5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F16535C7213D4B96000E41C5 /* Assets.xcassets */; };
 		F16535CB213D4B96000E41C5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F16535C9213D4B96000E41C5 /* LaunchScreen.storyboard */; };
+		F16535D5213D4C57000E41C5 /* RestKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F16535D2213D4C56000E41C5 /* RestKit.framework */; };
+		F16535D6213D4C57000E41C5 /* RestKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F16535D2213D4C56000E41C5 /* RestKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		F16535D7213D4C57000E41C5 /* VisualRecognitionV3.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F16535D3213D4C57000E41C5 /* VisualRecognitionV3.framework */; };
+		F16535D8213D4C57000E41C5 /* VisualRecognitionV3.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F16535D3213D4C57000E41C5 /* VisualRecognitionV3.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		F16535D9213D4C57000E41C5 /* SVProgressHUD.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F16535D4213D4C57000E41C5 /* SVProgressHUD.framework */; };
+		F16535DA213D4C57000E41C5 /* SVProgressHUD.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F16535D4213D4C57000E41C5 /* SVProgressHUD.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		F16535DB213D4C58000E41C5 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				F16535DA213D4C57000E41C5 /* SVProgressHUD.framework in Embed Frameworks */,
+				F16535D6213D4C57000E41C5 /* RestKit.framework in Embed Frameworks */,
+				F16535D8213D4C57000E41C5 /* VisualRecognitionV3.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		F16535BD213D4B93000E41C5 /* SeeFood.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SeeFood.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F16535C0213D4B93000E41C5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F16535C2213D4B93000E41C5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F16535C2213D4B93000E41C5 /* SeeFoodViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeeFoodViewController.swift; sourceTree = "<group>"; };
 		F16535C5213D4B93000E41C5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F16535C7213D4B96000E41C5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F16535CA213D4B96000E41C5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F16535CC213D4B96000E41C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F16535D2213D4C56000E41C5 /* RestKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = RestKit.framework; sourceTree = "<group>"; };
+		F16535D3213D4C57000E41C5 /* VisualRecognitionV3.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = VisualRecognitionV3.framework; sourceTree = "<group>"; };
+		F16535D4213D4C57000E41C5 /* SVProgressHUD.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SVProgressHUD.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +54,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F16535D9213D4C57000E41C5 /* SVProgressHUD.framework in Frameworks */,
+				F16535D5213D4C57000E41C5 /* RestKit.framework in Frameworks */,
+				F16535D7213D4C57000E41C5 /* VisualRecognitionV3.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -38,6 +66,9 @@
 		F16535B4213D4B93000E41C5 = {
 			isa = PBXGroup;
 			children = (
+				F16535D2213D4C56000E41C5 /* RestKit.framework */,
+				F16535D4213D4C57000E41C5 /* SVProgressHUD.framework */,
+				F16535D3213D4C57000E41C5 /* VisualRecognitionV3.framework */,
 				F16535BF213D4B93000E41C5 /* SeeFood */,
 				F16535BE213D4B93000E41C5 /* Products */,
 			);
@@ -55,13 +86,29 @@
 			isa = PBXGroup;
 			children = (
 				F16535C0213D4B93000E41C5 /* AppDelegate.swift */,
-				F16535C2213D4B93000E41C5 /* ViewController.swift */,
-				F16535C4213D4B93000E41C5 /* Main.storyboard */,
+				F16535DC213D511D000E41C5 /* Controller */,
+				F16535DD213D5135000E41C5 /* View */,
 				F16535C7213D4B96000E41C5 /* Assets.xcassets */,
 				F16535C9213D4B96000E41C5 /* LaunchScreen.storyboard */,
 				F16535CC213D4B96000E41C5 /* Info.plist */,
 			);
 			path = SeeFood;
+			sourceTree = "<group>";
+		};
+		F16535DC213D511D000E41C5 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				F16535C2213D4B93000E41C5 /* SeeFoodViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		F16535DD213D5135000E41C5 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F16535C4213D4B93000E41C5 /* Main.storyboard */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,6 +121,7 @@
 				F16535B9213D4B93000E41C5 /* Sources */,
 				F16535BA213D4B93000E41C5 /* Frameworks */,
 				F16535BB213D4B93000E41C5 /* Resources */,
+				F16535DB213D4C58000E41C5 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -135,7 +183,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F16535C3213D4B93000E41C5 /* ViewController.swift in Sources */,
+				F16535C3213D4B93000E41C5 /* SeeFoodViewController.swift in Sources */,
 				F16535C1213D4B93000E41C5 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -281,6 +329,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = SeeFood/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -298,6 +350,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = SeeFood/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
